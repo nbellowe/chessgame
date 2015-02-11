@@ -18,7 +18,7 @@
     "underscore": "~1.4.2"
   },
   "devDependencies":{
-    "jasmine-node": "~1.0.28",
+    "jasmine-node": "~1.0.28"
   },
   "subdomain": "chess",
   "engines": {
