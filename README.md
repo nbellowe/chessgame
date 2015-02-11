@@ -22,7 +22,9 @@ Run the app:
 
 Then navigate to `http://localhost:3000`
 
-###Documentation
+###Documentation 
+
+I did have this on Azure, but am running out of free money on it. 
 
 Install the command line tools from here:
 
