@@ -10,10 +10,6 @@ app.set('view engine', 'ejs');
 app.set('view options', { layout: false });
 app.use('/lib', express.static('lib'));
 
-app.use(express.bodyParser());
-
-app.use(app.router);
-
 app.get('/', function (req, res) {
   res.render('index', { pattern: null });
 });
