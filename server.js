@@ -8,7 +8,7 @@ var program = require('./src/program');
  
 app.set('view engine', 'ejs');
 app.set('view options', { layout: false });
-app.use('/lib', express.static('public'));
+app.use('/lib', express.static('lib'));
 
 app.use(express.bodyParser());
 
